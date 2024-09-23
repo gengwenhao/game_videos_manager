@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev:vue": "pnpm run -F frontend dev",
-    "dev:nest": "pnpm run -F backend start:dev"
+    "dev:nest": "pnpm run -F backend start:dev",
+    "build:vue": "pnpm run -F frontend build",
+    "build:nest": "pnpm run -F backend build"
   },
   "keywords": [],
   "author": "gengwenhao",
