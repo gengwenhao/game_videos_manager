@@ -1,0 +1,9 @@
+packages:
+  - 'packages/**'
+  - 'scripts/**'
+  - 'fass/**'
+  - 'bass/**'
+  - 'web/**'
+  - '! **/test/**'
+  - '! **/tests/**'
+  - '! **/dist/**'
