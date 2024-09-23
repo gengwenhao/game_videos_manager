@@ -1,0 +1,13 @@
+{
+  "name": "game_videos_manager",
+  "version": "0.1.0",
+  "description": "monorepo 项目开发的 LOL 游戏录像管理系统",
+  "main": "index.js",
+  "scripts": {
+    "dev:vue":"pnpm run -F frontend dev",
+    "dev:nest": "pnpm run -F backend start:dev"
+  },
+  "keywords": [],
+  "author": "gengwenhao",
+  "license": "MIT"
+}
