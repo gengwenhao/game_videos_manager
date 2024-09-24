@@ -14,7 +14,7 @@
 
 <style scoped>
 .el-container {
-  min-height: 100vh;
+  min-height: max(100vh, 700px);
 }
 
 .el-aside {

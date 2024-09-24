@@ -7,4 +7,11 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) => {
+  // @ts-ignore
+  to.meta.title && (document.title = to.meta.title)
+
+  next()
+})
+
 export default router

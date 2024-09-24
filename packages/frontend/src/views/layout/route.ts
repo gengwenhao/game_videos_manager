@@ -5,6 +5,7 @@ import Layout from './index.vue'
 const defaultRoute = {
   path: '',
   name: 'layout',
+  redirect: 'workbench',
   component: Layout,
   children: []
 }
