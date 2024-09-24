@@ -1,10 +1,5 @@
-<script setup lang="ts">
-</script>
-
 <template>
-  <RouterView />
+  <el-watermark :content="['gengwenhao789', 'game_videos_manager']">
+    <RouterView />
+  </el-watermark>
 </template>
-
-<style scoped>
-
-</style>
