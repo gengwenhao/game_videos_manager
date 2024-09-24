@@ -12,20 +12,20 @@
   </el-container>
 </template>
 
-<style scoped>
-.el-container {
+<style scoped lang="scss">
+.common-layout {
   min-height: max(100vh, 700px);
-}
 
-.el-aside {
-  background-color: red;
-}
+  .el-aside {
+    background-color: red;
+  }
 
-.el-header {
-  background-color: lightblue;
-}
+  .el-header {
+    background-color: lightblue;
+  }
 
-.el-main {
-  background-color: lightgoldenrodyellow;
+  .el-main {
+    background-color: lightgoldenrodyellow;
+  }
 }
 </style>
