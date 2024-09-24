@@ -112,4 +112,4 @@ Object
   })
 
 
-export default defaultRoute
+export default route
