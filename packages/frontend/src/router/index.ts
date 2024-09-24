@@ -9,6 +9,16 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Layout
+    },
+    {
+      path: '/',
+      name: 'login',
+      component: () => import('@/views/login/index.vue')
+    },
+    {
+      path: '*',
+      name: 'error404',
+      component: () => import('@/views/error404/index.vue')
     }
   ]
 })
