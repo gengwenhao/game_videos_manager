@@ -4,8 +4,8 @@ import { Menu as IconMenu, Setting, VideoCameraFilled } from '@element-plus/icon
 
 <template>
   <el-container class="common-layout">
-    <el-aside width="200px">
-      <el-menu class="el-menu-vertical" default-active="1">
+    <el-aside style="width: auto;">
+      <el-menu class="el-menu-vertical" collapse default-active="1">
         <el-menu-item index="1">
           <el-icon>
             <video-camera-filled />
