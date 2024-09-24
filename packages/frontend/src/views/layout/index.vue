@@ -1,14 +1,28 @@
 <script setup lang="ts">
-
+import { Menu as IconMenu, Setting, VideoCameraFilled } from '@element-plus/icons-vue'
 </script>
 
 <template>
   <el-container class="common-layout">
-    <el-aside width="200px">Aside</el-aside>
-    <el-container>
-      <el-header>Header</el-header>
-      <el-main>Main</el-main>
-    </el-container>
+    <el-aside width="200px">
+      <el-menu class="el-menu-vertical" default-active="1">
+        <el-menu-item index="1">
+          <el-icon>
+            <video-camera-filled />
+          </el-icon>
+          <span>Videos</span>
+        </el-menu-item>
+        <el-menu-item index="3">
+          <el-icon>
+            <setting />
+          </el-icon>
+          <span>Settings</span>
+        </el-menu-item>
+      </el-menu>
+    </el-aside>
+    <el-main>
+      <router-view />
+    </el-main>
   </el-container>
 </template>
 
@@ -17,15 +31,18 @@
   min-height: max(100vh, 700px);
 
   .el-aside {
-    background-color: red;
+    .el-menu-vertical {
+      min-height: 100%;
+      user-select: none;
+    }
   }
 
   .el-header {
-    background-color: lightblue;
+    background-color: lightgray;
   }
 
   .el-main {
-    background-color: lightgoldenrodyellow;
+    background-color: whitesmoke;
   }
 }
 </style>

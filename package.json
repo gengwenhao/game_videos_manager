@@ -4,7 +4,7 @@
   "description": "monorepo 项目开发的 LOL 游戏录像管理系统",
   "main": "index.js",
   "scripts": {
-    "dev:vue": "pnpm run -F frontend dev",
+    "dev:vue": "pnpm run -F frontend dev --host",
     "dev:nest": "pnpm run -F backend start:dev",
     "build:vue": "pnpm run -F frontend build",
     "build:nest": "pnpm run -F backend build"
@@ -13,6 +13,7 @@
   "author": "gengwenhao",
   "license": "MIT",
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",

@@ -1,5 +1,5 @@
 <template>
   <el-watermark :content="['gengwenhao789', 'game_videos_manager']">
-    <RouterView />
+    <router-view />
   </el-watermark>
 </template>
