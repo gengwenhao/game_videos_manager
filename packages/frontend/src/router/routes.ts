@@ -11,11 +11,11 @@ const routes: any[] = [
     }
   },
   {
-    path: '',
+    path: '/:pathMatch(.*)',
     name: 'error404',
     component: () => import('@/views/error404/index.vue'),
     meta: {
-      title: 'Error404 Page Not Found | Game Videos Manager'
+      title: 'Page Not Found'
     }
   }
 ]
